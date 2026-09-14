@@ -1,0 +1,18 @@
+<Solution>
+  <Configurations>
+    <Platform Name="Any CPU" />
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Folder Name="/Task0/">
+    <Project Path="Tyuiu.RomanovS.Sprint0.Task0.V0/Tyuiu.RomanovS.Sprint0.Task0.V0.vcxproj" Id="38af7e62-5e9f-4261-be65-95c09724d052" />
+  </Folder>
+  <Folder Name="/Task1/">
+    <Project Path="Tyuiu.RomanovS.Sprint0.Task1.V0/Tyuiu.RomanovS.Sprint0.Task1.V0.csproj" />
+  </Folder>
+  <Folder Name="/Task2/">
+    <Project Path="Tyuiu.RomanovS.Sprint0.Task2.V0.Lib/Tyuiu.RomanovS.Sprint0.Task2.V0.Lib.csproj" />
+    <Project Path="Tyuiu.RomanovS.Sprint0.Task2.V0.Test/Tyuiu.RomanovS.Sprint0.Task2.V0.Test.csproj" Id="a5fab034-cc9b-4295-b98e-eab84ca5da30" />
+    <Project Path="Tyuiu.RomanovS.Sprint0.Task2.V0/Tyuiu.RomanovS.Sprint0.Task2.V0.csproj" />
+  </Folder>
+</Solution>
