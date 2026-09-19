@@ -12,7 +12,7 @@ namespace Tyuiu.RomanovS.Sprint0.Task2.V0
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(DataService.GetMessage("Славаа"));
+            Console.WriteLine(DataService.GetMessage("Слава"));
             Console.ReadKey();
         }
     }
