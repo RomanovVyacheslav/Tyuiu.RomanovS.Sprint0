@@ -10,7 +10,7 @@ namespace Tyuiu.RomanovS.Sprint0.Task2.V0.Lib
     {
         public static string GetMessage(string name)
         {
-            return $"Приве, {name}";
+            return $"Привее, {name}";
         }
 
     }
