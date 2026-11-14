@@ -1,8 +1,4 @@
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 using Tyuiu.RomanovS.Sprint0.Task7.V0.Lib;
 
@@ -13,21 +9,19 @@ namespace Tyuiu.RomanovS.Sprint0.Task7.V0
         static void Main(string[] args)
         {
             Console.Title = "Спринт #0 | Выполнил: Романов В. И. | ПИНб-26-1";
-            //Длина строки 75 символов
             Console.WriteLine("****************************************************************************");
             Console.WriteLine("* Спринт #0                                                                *");
             Console.WriteLine("* Тема: Создания итогового решения по спринту                              *");
             Console.WriteLine("* Задание #7                                                               *");
             Console.WriteLine("* Вариант #0                                                               *");
             Console.WriteLine("* Выполнил: Романов Вячеслав Иванович | ПИНб-26-1                          *");
-            Console.WriteLine("***************************************************************************");
+            Console.WriteLine("****************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                 *");
             Console.WriteLine("* Написать консольную программу на C#, которая суммирует значения двух     *");
             Console.WriteLine("* одинаковых массивов по длине.                                            *");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                         *");
             Console.WriteLine("****************************************************************************");
 
-            // Место решения задания
             int[] arrayNums1 = new int[] { 1, 2, 3, 4, 5 };
 
             Console.WriteLine("Значение элементов массива №1");
