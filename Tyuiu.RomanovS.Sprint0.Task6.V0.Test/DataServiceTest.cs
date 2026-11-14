@@ -11,24 +11,24 @@ namespace Tyuiu.RomanovS.Sprint0.Task6.V0.Test
         [TestMethod]
         public void CheckAdditionArrayValid()
         {
-            var numbers = new int[] { 1, 2, 3, 4, 5 };
-            var res = DataService.AdditionArray(numbers);
+            int[] numbers = new int[] { 1, 2, 3, 4, 5 };
+            object res = DataService.AdditionArray(numbers);
             Assert.AreEqual(15, res);
         }
 
         [TestMethod]
         public void CheckSubstractionArrayValid()
         {
-            var numbers = new int[] { 1, 2, 3, 4, 5 };
-            var res = DataService.SubtractionArray(numbers);
+            int[] numbers = new int[] { 1, 2, 3, 4, 5 };
+            object res = DataService.SubtractionArray(numbers);
             Assert.AreEqual(-15, res);
         }
 
         [TestMethod]
         public void CheckMultArrayValid()
         {
-            var numbers = new int[] { 1, 2, 3, 4, 5 };
-            var res = DataService.MultiplicationArray(numbers);
+            int[] numbers = new int[] { 1, 2, 3, 4, 5 };
+            object res = DataService.MultiplicationArray(numbers);
             Assert.AreEqual(120, res);
         }
     }

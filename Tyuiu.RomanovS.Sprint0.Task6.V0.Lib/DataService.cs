@@ -1,18 +1,13 @@
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Tyuiu.RomanovS.Sprint0.Task6.V0.Lib
 {
     public class DataService
     {
-        //Пример циклической структуры (цикл с параметром) for
         public static object AdditionArray(int[] numbers)
         {
-            var total = 0;
-            for (var i = 0; i < numbers.Length; i++)
+            int total = 0;
+            for (int i = 0; i < numbers.Length; i++)
             {
                 total = total + numbers[i];
             }
@@ -20,10 +15,9 @@ namespace Tyuiu.RomanovS.Sprint0.Task6.V0.Lib
             return total;
         }
 
-        //Пример циклической структуры (цикл с предусловием) while
         public static object SubtractionArray(int[] numbers)
         {
-            var total = 0;
+            int total = 0;
             int index = 0;
 
             while (index < numbers.Length)
@@ -35,10 +29,9 @@ namespace Tyuiu.RomanovS.Sprint0.Task6.V0.Lib
             return total;
         }
 
-        //Пример циклической структуры (цикл с постусловием) do while
         public static object MultiplicationArray(int[] numbers)
         {
-            var total = 1;
+            int total = 1;
             int index = 0;
             do
             {
